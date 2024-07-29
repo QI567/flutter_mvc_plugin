@@ -1,0 +1,1 @@
+Flutter Mvc 插件，用于创建Mvc模块。打开项目目录结构，鼠标右击->New->Flutter Mvc，输入模块名称（驼峰或下划线），选择是否使用go_router，点击ok。
