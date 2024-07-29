@@ -42,9 +42,9 @@ tasks {
     }
 
     signPlugin {
-        certificateChain.set(System.getenv("CERTIFICATE_CHAIN"))
-        privateKey.set(System.getenv("PRIVATE_KEY"))
-        password.set(System.getenv("PRIVATE_KEY_PASSWORD"))
+        certificateChainFile.set(file("certificate/flutter_mvc_plugin_chain.crt"))
+        privateKeyFile.set(file("certificate/flutter_mvc_plugin.pem"))
+        password.set("flutter_mvc_plugin")
     }
 
     publishPlugin {
